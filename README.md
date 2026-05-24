@@ -10,19 +10,12 @@ Quick start
 # Install deps
 npm install
 
+# setup environment variables
+cp .env.example .env
+
 # Run dev server
 npm run dev
 
 # Build
 npm run build
 ```
-
-Edit the UI at `app/page.tsx`. Serverless API routes live under `app/api/*`.
-
-Files of interest
-
-- `app/utils/geminiClient.ts` — Gemini client + parsing and tracing
-- `app/page.tsx` — main UI and form handling
-- `app/api/chat/route.ts` — POST endpoint that returns generated questions
-
-Short, internal-friendly project — keep edits focused and incremental.

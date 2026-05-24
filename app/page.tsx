@@ -6,7 +6,6 @@ import MeloModelSelector from './components/MeloModelSelector'
 import MeloButton from './components/Shared/MeloButton'
 import {
   COMPANY_NAME,
-  FOUNDER_NAME,
   FILL_RATE,
   NETWORK_SIZE,
   SUBMISSIONS_PER_HIRE,
@@ -105,15 +104,6 @@ export default function Page() {
                         <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-sage">Submissions</p>
                         <p className="mt-1 text-sm font-semibold text-primary-text">{SUBMISSIONS_PER_HIRE} per hire</p>
                       </div>
-                    </div>
-                    <div className="mt-4 inline-flex items-center gap-4 rounded-xl border border-brand-charcoal/5 bg-brand-charcoal/[0.02] px-3 py-1.5 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
-                      <span className="relative flex h-2 w-2">
-                        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-emerald/40 opacity-75"></span>
-                        <span className="relative inline-flex h-2 w-2 rounded-full bg-accent-emerald"></span>
-                      </span>
-                      <p className="text-xs text-muted-sage">
-                        Curated under the executive leadership of <span className="font-semibold text-primary-text pl-1">{FOUNDER_NAME}</span>
-                      </p>
                     </div>
                   </div>
                 </div>
